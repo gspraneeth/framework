@@ -24,11 +24,11 @@ public class autoitdownload {
 		
 		driver.findElement(By.linkText("3.141.59")).click();
 		
-		Thread.sleep(2000);
+		
 		
 		Runtime.getRuntime().exec("C:\\softwares\\download autoit.exe");
 		
-		Thread.sleep(2000);
+		
 		
 		driver.quit();
 		
